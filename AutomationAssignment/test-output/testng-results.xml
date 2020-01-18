@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching the Browser]]>
+    </line>
+    <line>
+      <![CDATA[price of Iphone on Amazon : 42900]]>
+    </line>
+    <line>
+      <![CDATA[price of Iphone on Flipkart : 53999]]>
+    </line>
+    <line>
+      <![CDATA[price of Iphone is higher on Flipkart compared to Amazon ]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40649" started-at="2020-01-18T09:34:25Z" finished-at="2020-01-18T09:35:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40649" started-at="2020-01-18T09:34:25Z" finished-at="2020-01-18T09:35:06Z">
+      <class name="testNGScripts.IphonePriceComparison">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testNGScripts.IphonePriceComparison@4eb7f003]" name="launchBrowser" is-config="true" duration-ms="22789" started-at="2020-01-18T09:34:25Z" finished-at="2020-01-18T09:34:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="iPhonePrice()[pri:0, instance:testNGScripts.IphonePriceComparison@4eb7f003]" name="iPhonePrice" duration-ms="17481" started-at="2020-01-18T09:34:48Z" finished-at="2020-01-18T09:35:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[price of Iphone on Amazon : 42900]]>
+            </line>
+            <line>
+              <![CDATA[price of Iphone on Flipkart : 53999]]>
+            </line>
+            <line>
+              <![CDATA[price of Iphone is higher on Flipkart compared to Amazon ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iPhonePrice -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testNGScripts.IphonePriceComparison@4eb7f003]" name="closeBrowser" is-config="true" duration-ms="290" started-at="2020-01-18T09:35:06Z" finished-at="2020-01-18T09:35:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNGScripts.IphonePriceComparison -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
