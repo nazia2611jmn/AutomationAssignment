@@ -24,11 +24,11 @@ WebDriverUtils wUtils=new WebDriverUtils();
 public void launchBrowser() throws Throwable
 {
 	//String browserName=fUtils.getMapData1("browser", XlPath, sheetName);
-	//String url=fUtils.getMapData1("url1", XlPath, sheetName);
+	//String url=fUtils.getMapData1("url1", XlPath, sheetName);url1,url3
 	Reporter.log("Launching the Browser",true);
 	Properties pObj=fUtils.getPropertiFileObject();
 	String browserName=pObj.getProperty("browser");
-	String url=pObj.getProperty("url1");
+	String url=pObj.getProperty("url3");
 	if(browserName.equals("chrome"))
 	{
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\samir mallick\\eclipse-workspace\\Seleniumautomation\\Drivers\\chromedriver.exe");	
@@ -36,6 +36,8 @@ public void launchBrowser() throws Throwable
 	driver.manage().window().maximize();
 	wUtils.implicitWait(driver);
 	driver.get(url);
+	
+	
 
 	}
 	if(browserName.equals("firefox"))
@@ -45,7 +47,7 @@ public void launchBrowser() throws Throwable
 	driver.manage().window().maximize();
 	wUtils.implicitWait(driver);
 	driver.get(url);
-
+	
 	}
 	if(browserName.equals("ie"))
 	{
